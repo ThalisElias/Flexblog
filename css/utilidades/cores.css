@@ -5,8 +5,19 @@
   --color-c-bg: white;
   --color-p-menu: #7c7c7c;
   --color-h2-produtos: #a4a4a4;
+  --cor-1: #f7f7f7;
+  --cor-2: #ededed;
+  --cor-4: #cccccc;
+  --cor-9: #404040;
+  --cor-10: #2e2e2e;
+  --cor-p4: #664400;
+  --cor-p5: #332200;
 }
 
 .cor-geralTexto {
   color: var(--cor-geralTexto);
+}
+
+.cor-p5 {
+  color: var(--cor-p5);
 }
