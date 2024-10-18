@@ -1,7 +1,9 @@
 :root {
-  --cor-geral: #222222;
+  --cor-geralTexto: #222222;
+  --cor-bg-SI: #122ab2;
+  --color-SI: white;
 }
 
-.cor-geral {
-  color: var(--cor-geral);
+.cor-geralTexto {
+  color: var(--cor-geralTexto);
 }
