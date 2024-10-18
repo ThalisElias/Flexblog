@@ -1,0 +1,29 @@
+.menu-bg {
+  background: var(--cor-bg-menu);
+}
+
+.menu {
+  padding: 15px 0;
+}
+.menu a {
+  color: var(--color-c-bg);
+}
+.menu-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover {
+  color: #122ab2;
+}

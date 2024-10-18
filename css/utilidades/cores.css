@@ -1,7 +1,8 @@
 :root {
   --cor-geralTexto: #222222;
   --cor-bg-SI: #122ab2;
-  --color-SI: white;
+  --cor-bg-menu: #2c70ff;
+  --color-c-bg: white;
 }
 
 .cor-geralTexto {
