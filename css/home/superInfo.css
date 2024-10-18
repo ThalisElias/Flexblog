@@ -5,6 +5,7 @@
 
 .superinfo {
   padding-top: 10px;
+  justify-content: space-between;
 }
 
 .superinfo p,

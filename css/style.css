@@ -8,3 +8,5 @@
 /* HOME */
 @import "./home/superInfo.css";
 @import "./home/menu.css";
+@import "./home/introducao.css";
+@import "./home/sobre.css";
