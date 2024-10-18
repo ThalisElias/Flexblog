@@ -1,0 +1,7 @@
+:root {
+  --cor-geral: #222222;
+}
+
+.cor-geral {
+  color: var(--cor-geral);
+}
