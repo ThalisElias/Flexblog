@@ -1,0 +1,63 @@
+.newsletter-bg {
+  background: var(--cor-1);
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.newsletter-info {
+  flex: 1 1 200px;
+  margin: 0 10px;
+}
+
+.newsletter-info h1 {
+  font-size: 3rem;
+  color: var(--color-h2-produtos);
+}
+
+.newsletter-info p {
+  font-size: 1.1rem;
+  font-style: italic;
+  max-width: 230px;
+  color: var(--color-p-menu);
+}
+
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 1 260px;
+  margin: 0 10px;
+}
+.newsletter-form input {
+  flex: 2 1;
+  box-sizing: border-box;
+  font: 400 1rem / 1.5 "Nunita", sans-serif;
+  border: 2px solid var(--cor-bg-menu);
+  padding: 15px 10px;
+  border-radius: 5px 0 0 5px;
+  width: 100%;
+  color: var(--color-p-menu);
+  font-style: italic;
+  margin: 0;
+}
+
+.newsletter-form button {
+  border-radius: 0 5px 5px 0;
+  border: none;
+  padding: 15px 10px;
+  flex: 1 1;
+  font: 400 1rem / 1.5 "Nunita", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background: var(--cor-bg-menu);
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .newsletter-info p {
+    margin-bottom: 35px;
+  }
+  .newsletter-form button {
+    font-size: 1rem;
+  }
+}

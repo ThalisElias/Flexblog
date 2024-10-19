@@ -16,3 +16,10 @@
 .superinfo a {
   color: var(--color-c-bg);
 }
+
+@media (max-width: 600px) {
+  .superinfo {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+}

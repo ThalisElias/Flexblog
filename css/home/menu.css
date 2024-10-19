@@ -28,3 +28,9 @@
 .menu-nav a:hover {
   color: #122ab2;
 }
+
+@media (max-width: 600px) {
+  .menu-nav {
+    padding-top: 20px;
+  }
+}
